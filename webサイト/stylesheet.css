@@ -1,0 +1,139 @@
+header{
+    height:100px;
+    background-color:rgba(34, 49, 52, 0.9);
+    color:white;
+}
+
+.header-left{
+    float:left;
+}
+
+
+.header-right{
+    float:right;
+    background-color:rgba(255, 255, 255, 0.3);
+    
+}
+
+.header-right:hover{
+    background-color:rgba(255, 255, 255, 0.5);
+}
+
+.header-right a{
+   color:white;
+   display:block;
+   line-height:65px;
+   padding:0 25px;
+   transition:all 0.5s;
+}
+
+
+
+.copy-container{
+    padding:50px 30px 40px 0;
+    font-size:60px;
+    background-image:url(freesozai.jpg);
+    background-size:cover;
+    
+}
+
+.section-title{
+    border-bottom: 2px solid #dee7ec;
+    border:bottom;
+    font-size:28px;
+    padding-bottom:15px;
+    margin-bottom:50px;
+}
+
+.signup{
+    background-color:#239b76;
+}
+
+
+.btn-wrapper{
+    text-align:center;
+    padding:30px 0;
+}
+
+.btn{
+    display:inline-block;
+    color:white;
+    padding:8px 24px;
+    border-radius:10px;
+    text-decoration:none;
+    opacity:0.8;
+}
+
+.btn:hover{
+    opacity:1;
+}
+
+.twitter{
+    background-color:#55acee;
+    margin-right:20px;
+}
+
+.instagram{
+    background-color:red;
+    margin-right:20px;
+}
+
+.facebook{
+    background-color:#3b5998;
+    margin-right:20px;
+}
+
+
+.tiktok{
+    background-color:black;
+    margin-right:20px;
+}
+
+
+
+
+.contents{
+    height:400px;
+}
+
+.contents-item{
+    float:left;
+    width:22%;
+    margin-right:40px;
+    text-align:center;
+    
+}
+
+input,textarea{
+    width:400px;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding:20px;
+    font-size:18px;
+    border:1px solid #dee7ec;
+}
+
+.contact-submit{
+    background-color:#dee7ec;
+}
+
+.footer{
+    background-color:#2f5167;
+    height:200px;
+    color:white;
+}
+
+.footer-logo{
+    float:left;
+    padding:20px;
+    font-size:30px;
+}
+
+.footer-list{
+    float:right;
+}
+
+.footer-list li{
+    padding-bottom:20px;
+    
+}
